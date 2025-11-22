@@ -9,7 +9,11 @@ namespace p511_oop
     internal class Program
     {
         static void Main(string[] args)
-        {
+        { 
+        Console.Write("Введите число: ");
+        int number = int.Parse(Console.ReadLine());
+        Console.WriteLine(number % 2 == 0 ? "Четное" : "Нечетное");
+
         }
     }
 }
